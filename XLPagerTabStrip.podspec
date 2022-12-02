@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/xmartlabs'
   s.ios.deployment_target = '9.3'
   s.requires_arc = true
-  s.ios.source_files = 'Sources/**/*.{h,m,swift}'
+  s.ios.source_files = 'Sources/**/*.{swift}'
   s.ios.frameworks = 'UIKit', 'Foundation'
   s.resource_bundles = { 'XLPagerTabStrip' => ['Sources/XLPagerTabStrip/Resources/ButtonCell.xib'] }
   s.swift_version = "5.0"
